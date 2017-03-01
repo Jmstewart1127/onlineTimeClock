@@ -8,6 +8,8 @@ class User
     public $password;
     public $first_name;
     public $last_name;
+    public $employeeCode;
+    public $employerCode;
 
 
     public static function find_all_users()
@@ -22,8 +24,6 @@ class User
         $the_result_array = self::find_this_query("SELECT * FROM users WHERE id=$id LIMIT 1");
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
-
-
     }
 
 
