@@ -55,7 +55,7 @@ class TimeClockView
         echo       '</html>';
     }
 
-    function postSignUpView()
+    public function postSignUpView()
     {
         include("includes/head.php");
         echo '<body>';
