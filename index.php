@@ -1,5 +1,5 @@
 <?php include('includes/head.php'); ?>
-<?php include('classes.php'); ?>
+<?php include('classes/dbInit.php'); ?>
 
 <body>
 

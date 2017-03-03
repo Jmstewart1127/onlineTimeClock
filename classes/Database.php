@@ -3,7 +3,6 @@
 require_once 'dbInit.php';
 
 
-
 class Database
 {
 

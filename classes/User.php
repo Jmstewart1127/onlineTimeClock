@@ -41,6 +41,7 @@ class User
         return $the_object_array;
     }
 
+
     public static function verify_user($username, $password)
     {
         global $database;
@@ -88,6 +89,7 @@ class User
 
         return array_key_exists($the_attribute, $object_properties);
     }
+
 
     public function create()
     {   // Creates new user

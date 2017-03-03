@@ -1,16 +1,14 @@
 <?php
 
 include('includes/head.php');
-include('classes.php');
+include('classes/dbInit.php');
 
 $newUser = new User();
 
 if (isset($_POST['signupsubmit']))
 {
-
     $newUser->username = $_POST['username'];
     $newUser->password = $_POST['password'];
-
     $newUser->create();
 
     echo "done";
@@ -34,4 +32,3 @@ if (isset($_POST['signupsubmit']))
 </body>
 
 </html>
-
