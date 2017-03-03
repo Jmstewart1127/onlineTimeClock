@@ -93,7 +93,7 @@ class User
     {   // Creates new user
         global $database;
 
-        $sql = "INSERT INTO users (username, password, first_name, last_name)";
+        $sql = "INSERT INTO users (username, password, firstName, lastName)";
         $sql .= "VALUES ('";
         $sql .= $database->escape_string($this->username) . "', '";
         $sql .= $database->escape_string($this->password) . "', '";

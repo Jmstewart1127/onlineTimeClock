@@ -3,6 +3,7 @@
 
 
 $newUser = new User();
+
 $newUser->username = $_POST['username'];
 $newUser->password = $_POST['password'];
 $newUser->first_name = $_POST[''];

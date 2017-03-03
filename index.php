@@ -1,4 +1,5 @@
 <?php include('includes/head.php'); ?>
+<?php include('classes.php'); ?>
 
 <body>
 

@@ -1,4 +1,5 @@
 <?php include('includes/head.php'); ?>
+<?php include('classes.php'); ?>
 
 <body>
 
@@ -14,7 +15,7 @@
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
 
-    <!-- AJAX Scripts -->
+    <!-- AJAX Scripts --
     <script src="ajax/ajaxJquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->

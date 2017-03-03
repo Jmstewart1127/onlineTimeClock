@@ -8,7 +8,7 @@ $(document).ready(function () {
         var $form = $(this);
         var serializedData = $form.serialize();
         request = $.ajax({
-            url:'../main/driver.php',
+            url:'../signUpCont.php',
             type:'POST',
             data: serializedData
         });

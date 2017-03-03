@@ -1,5 +1,5 @@
 <div class="col-xs-12 col-xs-offset-1 col-sm-12 col-sm-offset-1 col-md-12 col-md-offset-1 col-lg-12 col-lg-offset-1 text-center" id="form">
-    <form role="form" action="main/driver.php" id="signUp" method="POST" enctype="multipart/form-data">
+    <form role="form" action="signUpCont.php" id="signUp" method="POST" enctype="multipart/form-data">
         <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
             <label>Username</label>
                 <input type="text" class="form-control" name="username" id="username" required>
