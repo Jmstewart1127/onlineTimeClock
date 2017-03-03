@@ -1,6 +1,5 @@
 <?php
 
-include('includes/head.php');
 include('dbInit.php');
 
 $newUser = new SignUpController();

@@ -77,6 +77,30 @@ class TimeClockView
         echo        '</html>';
     }
 
+    public function loggedInView()
+    {
+        include("includes/head.php");
+        echo '<body>';
+
+        //<!-- Navigation -->
+        include("includes/navbarLogged.php");
+
+        //<!-- Page Content -->
+        include("includes/pageContent.php");
+
+
+        echo            '<!-- jQuery Version 1.11.1 -->';
+        echo       '<script src="js/jquery.js"></script>';
+
+        //<!-- AJAX Scripts --
+        //<script src="ajax/ajaxJquery.js"></script>
+
+        //<!-- Bootstrap Core JavaScript -->
+        echo       '<script src="js/bootstrap.min.js"></script>';
+        echo       '</body>';
+        echo       '</html>';
+    }
+
 }
 
 ?>

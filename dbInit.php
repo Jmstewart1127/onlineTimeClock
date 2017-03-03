@@ -20,6 +20,7 @@ include('views/TimeClockView.php');
 // Controllers
 
 include('controllers/SignUpController.php');
+include('controllers/LoginController.php');
 
 
 
